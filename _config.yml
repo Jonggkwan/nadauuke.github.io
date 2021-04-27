@@ -16,7 +16,7 @@ minimal_mistakes_skin: "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon
 
 # Site Settings
 locale: "en-US"
-title: "Stupid programmer"
+title: "Stupid Programmer"
 title_separator: "-"
 subtitle: # site tagline that appears below site title in masthead
 name: "작업장"
@@ -93,7 +93,7 @@ analytics:
 
 # Site Author
 author:
-  name: "개발자 희망생"
+  name: "Nadauuke"
   avatar: # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   # bio: "Stupid programmer"
   location: "South Korea"
