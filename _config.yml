@@ -19,7 +19,7 @@ locale: "en-US"
 title: "Stupid Programmer"
 title_separator: "-"
 subtitle: # site tagline that appears below site title in masthead
-name: "작업장"
+name: ""
 description: # "An amazing website."
 url: "https://nadauuke.github.io"
 baseurl: # the subpath of your site, e.g. "/blog"
