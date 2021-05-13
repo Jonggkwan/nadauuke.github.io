@@ -6,7 +6,7 @@ categories:
   - Deep Learning
 tags:
   - Deep Learning
-use_math: true
+use_math: True
 last_modified_at: 2021-05-12T21:59:00
 ---
 
