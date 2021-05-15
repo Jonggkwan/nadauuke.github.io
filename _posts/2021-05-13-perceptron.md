@@ -23,6 +23,9 @@ $ y=\left\lbrace\begin{matrix}\ 0 \ (w_1x_1\ +\ w_2x_2\ \leq\  \theta ) \\\ 1 \ 
 
 w는 가중치를 뜻하고 x는 입력신호를 뜻합니다.
 
+하나의 퍼셉트론으로는  직선 하나만 표현이 가능합니다.
+
+그러므로 multi-layer-perceptron으로 XOR 문제 등을 풀 수 있습니다.
 
 
 
