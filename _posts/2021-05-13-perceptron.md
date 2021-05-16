@@ -38,9 +38,51 @@ def AND(x1, x2):
     else:
         return 1
 ```
+NAND gate는 AND gate 매개변수들을 모두 반전하면 됩니다.
 
+```python
+def NAND(x1, x2):
+    w1, w2, theta = -0.5, -0.5, -0.5
+    if x1*w1 + x2*w2 <= theta:
+        return 0
+    else:
+        return 1
+```
+OR gate도 변수를 적당히 조절 하면 구현 가능합니다.
+```python
+def OR(x1, x2):
+    w1, w2, theta = 0.5, 0.5, 0.3
+    if x1*w1 + x2*w2 <= theta:
+        return 0
+    else:
+        return 1
+```
 
-그러므로 multi-layer-perceptron으로 XOR 문제 등을 풀 수 있습니다.
+$ y=\left\lbrace\begin{matrix}\ 0 \ (w_1x_1\ +\ w_2x_2\ +\ b\ \leq\  \theta ) \\\ 1 \ (w_1x_1\ +\ w_2x_2\ +\ b\ > \  \theta )\end{matrix}\right. $
+에서 b를 편향(bias)라고 합니다.
 
+bias를 적용시켜 AND gate를 구현해 보면
 
+```python
+def AND(x1, x2):
+    x = np.array([x1, x2])
+    w = np.array([0.5, 0.5])
+    b = -0.7
+    if np.sum(w*x + b) <= 0:
+        return 0
+    else:
+        return 1
+```
+Perceptron을 이용해 XOR을 구현하려면 위의 게이트를 조합해야 합니다.
 
+$y\ =\ (x_1 \barwedge  x_2 ) \wedge (x_1\vee x_2)$
+∧ 는 AND ⊼ 는 NAND ∨는 or 입니다.
+
+```python
+def XOR(x1, x2):
+    s1 = NAND(x1, x2)
+    s2 = OR(x1, x2)
+    y = AND(s1, s2)
+    return y
+```
+이와 같이 층이 여러개인 퍼셉트론을 다층 퍼셉트론(multi-layer perceptron)이라 합니다.
