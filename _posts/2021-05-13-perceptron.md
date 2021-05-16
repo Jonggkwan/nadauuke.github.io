@@ -32,7 +32,7 @@ AND 게이트를 퍼셉트론으로 표현하기 위한 $ w_1 w_2 \theta $ 는 �
 
 ```python
 def AND(x1, x2):
-    w1, w2. theta = 0.5, 0.5, 0.5
+    w1, w2, theta = 0.5, 0.5, 0.5
     if x1*w1 + x2*w2 <= theta:
         return 0
     else:
