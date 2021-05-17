@@ -3,9 +3,11 @@ title:  "Activation Function"
 excerpt: "Activation Function"
 
 categories:
-
-- Deep Learning tags:
-- Deep Learning use_math: True last_modified_at: 2021-05-17T21:59:00
+  - Deep Learning 
+tags:
+  - Deep Learning 
+use_math: True 
+last_modified_at: 2021-05-17T21:59:00
 
 ---
 
@@ -40,4 +42,3 @@ relu의 변종으로 출력이 항상 양수이어야 할 때 사용
 어떤 범위 안의 값을 예측하고 싶다면 로지스틱 함수나 하이퍼볼릭 탄젠트 함수를 사용하고 
 레이블의 스케일을 조정할 수 있습니다. 로지스틱 함수는 0~1 사이의 값을 반환하고 하이퍼볼릭 탄젠트 함수는 
 -1~1 사이의 값을 반환합니다.
-
