@@ -33,13 +33,13 @@ step function과 sigmoid function은 비선형 함수입니다. 신경망에서�
 연속적이지만 0에서는 미분이 가능하지 않습니다.
 경사하강법이 엉뚱한 값으로 튈 수 있지만 실제로는 계산속도도 빠르고 잘 작동합니다.
 
-###softplus
+### softplus
 
 ![softplus function](./assets/images/softplus.png)
 
 relu의 변종으로 출력이 항상 양수이어야 할 때 사용
 
-###tanh
+### tanh
 
 ![tanh](./assets/images/tanh.png)
 
