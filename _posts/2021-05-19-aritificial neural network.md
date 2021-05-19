@@ -5,7 +5,7 @@ categories:
   - Deep Learning
 tags:
   - Deep Learning
-last_modified_at: {{ page.last_modified_at | date: '%Y:%B:%A:%d:%S:%R' }}
+last_modified_at: {% last_modified_at %}
 ---
 
 
