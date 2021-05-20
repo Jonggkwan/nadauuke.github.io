@@ -52,7 +52,7 @@ softmax 함수는 모든 예측 확률을 0과 1사이로 만들고 더했을 �
 (클래스가 서로 배타적일 경우). 이를 다중 분류(multiclass classification)라 합니다.
 확률 분포를 예측해야 하므로 손실함수에는 일반적으로 cross entrophy loss (log loss)을 선택하는 것이 좋습니다.
 
-$ p\hat{}_k = \sigma(s(x))_k = \frac{exp(s_k(x))}{\sum^k_{j=1}exp(s_j(x))}$ \
+$ p\hat{}_k = \sigma(s(x))_k = \frac{exp(s_k(x))}{\sum^k_{j=1}exp(s_j(x))} $ \
 K는 클래스 수입니다.\
-$s(x)$는 입력 x에 대한 각 클래스의 확률을 출력하는 함수 입니다.\
-$\simga (s(x))_k $ 는 입력 x에 대한 각 클래스의 점수가 주어졌을 때 이 샘플이 클래스 K에 속활 확률 입니다.
+$ s(x) $는 입력 x에 대한 각 클래스의 확률을 출력하는 함수 입니다.\
+$ \simga (s(x))_k $ 는 입력 x에 대한 각 클래스의 점수가 주어졌을 때 이 샘플이 클래스 K에 속활 확률 입니다.
