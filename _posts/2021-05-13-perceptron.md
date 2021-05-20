@@ -1,6 +1,5 @@
 ---
 title:  "파이썬으로 퍼셉트론 구현"
-excerpt: "파이썬으로 퍼셉트론 구현"
 
 categories:
   - Deep Learning

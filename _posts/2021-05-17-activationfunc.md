@@ -1,6 +1,5 @@
 ---
 title:  "Activation Function"
-excerpt: "Activation Function"
 
 categories:
   - Deep Learning 
