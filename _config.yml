@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "
 
 # Site Settings
 locale                   : "en-US"
-title                    : "ML study"
+title                    : "DL study"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Stupid programmer"
@@ -24,7 +24,7 @@ description              : ""
 url                      : "https://nadauuke.github.io"
 baseurl                  : # 서브 경로가 있는 경우 기재
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : "/assets/images/bio-photo-keyboard.jpg"
+teaser                   : "/assets/images/Sandollar.jpg"
 logo                     : # 최상단 메뉴 바에 사이트 로고 넣기
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
