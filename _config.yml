@@ -12,91 +12,91 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin: "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "en-US"
-title                    : "DL study"
-title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Stupid programmer"
-description              : ""
-url                      : "https://nadauuke.github.io"
-baseurl                  : # 서브 경로가 있는 경우 기재
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : "/assets/images/Sandollar.jpg"
-logo                     : # 최상단 메뉴 바에 사이트 로고 넣기
-masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
+locale: "en-US"
+title: "Effortive Programmer"
+title_separator: "-"
+subtitle: # site tagline that appears below site title in masthead
+name: "Nadauuke"
+description: ""
+url: "https://nadauuke.github.io"
+baseurl: # 서브 경로가 있는 경우 기재
+repository: # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+teaser: "/assets/images/Sandollar.jpg"
+logo: # 최상단 메뉴 바에 사이트 로고 넣기
+masthead_title: # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
-words_per_minute         : 200
+words_per_minute: 200
 comments:
-  provider               : "disqus" # 블로그 댓글 기능 false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
+  provider: "disqus" # 블로그 댓글 기능 false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
   disqus:
-    shortname            : "https-nadauuke-github-io" # 블로그 댓글 기능 https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+    shortname: "https-nadauuke-github-io" # 블로그 댓글 기능 https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
-    server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
+    server: # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
     # https://developers.facebook.com/docs/plugins/comments
-    appid                :
-    num_posts            : # 5 (default)
-    colorscheme          : # "light" (default), "dark"
+    appid:
+    num_posts: # 5 (default)
+    colorscheme: # "light" (default), "dark"
   utterances:
-    theme                : # "github-light" (default), "github-dark"
-    issue_term           : # "pathname" (default)
+    theme: # "github-light" (default), "github-dark"
+    issue_term: # "pathname" (default)
   staticman:
-    branch               : # "master"
-    endpoint             : # "https://{your Staticman v3 API}/v3/entry/github/"
+    branch: # "master"
+    endpoint: # "https://{your Staticman v3 API}/v3/entry/github/"
 reCaptcha:
-  siteKey                :
-  secret                 :
+  siteKey:
+  secret:
 atom_feed:
-  path                   : # blank (default) uses feed.xml
-search                   : # true, false (default)
-search_full_content      : # true, false (default)
-search_provider          : # lunr (default), algolia, google
+  path: # blank (default) uses feed.xml
+search: # true, false (default)
+search_full_content: # true, false (default)
+search_provider: # lunr (default), algolia, google
 algolia:
-  application_id         : # YOUR_APPLICATION_ID
-  index_name             : # YOUR_INDEX_NAME
-  search_only_api_key    : # YOUR_SEARCH_ONLY_API_KEY
-  powered_by             : # true (default), false
+  application_id: # YOUR_APPLICATION_ID
+  index_name: # YOUR_INDEX_NAME
+  search_only_api_key: # YOUR_SEARCH_ONLY_API_KEY
+  powered_by: # true (default), false
 google:
-  search_engine_id       : # YOUR_SEARCH_ENGINE_ID
-  instant_search         : # false (default), true
+  search_engine_id: # YOUR_SEARCH_ENGINE_ID
+  instant_search: # false (default), true
 # SEO Related
-google_site_verification :
-bing_site_verification   :
-yandex_site_verification :
-naver_site_verification  :
+google_site_verification:
+bing_site_verification:
+yandex_site_verification:
+naver_site_verification:
 
 # Social Sharing
 twitter:
-  username               :
+  username:
 facebook:
-  username               :
-  app_id                 :
-  publisher              :
-og_image                 : "/assets/images/Sandollar.jpg"
+  username:
+  app_id:
+  publisher:
+og_image: "/assets/images/Sandollar.jpg"
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
+  type: # Person or Organization (defaults to Person)
+  name: # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
 
 # Analytics
 analytics:
-  provider               : "google-gtag" # 구글 어날리틱스 등록 false (default), "google", "google-universal", "custom"
+  provider: "google-gtag" # 구글 어날리틱스 등록 false (default), "google", "google-universal", "custom"
   google:
-    tracking_id          : "UA-134677596-2"
-    anonymize_ip         : # true, false (default)
+    tracking_id: "UA-134677596-2"
+    anonymize_ip: # true, false (default)
 
 # Site Author
 author:
-  name             : "Stupid Programmer"
-  avatar           : "/assets/images/Sandollar.jpg"
-  bio              : ""
-  location         : "South Korea"
-  email            :
+  name: "Nadauuke"
+  avatar: "/assets/images/Sandollar.jpg"
+  bio: ""
+  location: "South Korea"
+  email: "skekdnzm1994@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -105,7 +105,6 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/nadauuke"
-
 
 # Site Footer
 footer:
@@ -128,7 +127,6 @@ footer:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url:
-
 
 # Reading Files
 include:
@@ -167,14 +165,12 @@ keep_files:
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
-
 # Conversion
 markdown: kramdown
 highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
 incremental: false
-
 
 # Markdown Processing
 kramdown:
@@ -187,19 +183,16 @@ kramdown:
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
 
-
 # Sass/SCSS
 sass:
   sass_dir: _sass
   style: compressed # https://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
-
 
 # Outputting
 permalink: /:categories/:title/
 paginate: 5 # 첫 페이지에보여줄 최근 게시물 수를 지정
 paginate_path: /page:num/
 timezone: Asia/Seoul # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-
 
 # Plugins (previously gems:)
 plugins:
@@ -217,7 +210,6 @@ whitelist:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
-
 
 # Archives
 #  Type
@@ -247,14 +239,12 @@ tag_archive:
 #     category: /categories/:name/
 #     tag: /tags/:name/
 
-
 # HTML Compression
 # - https://jch.penibelst.de/
 compress_html:
   clippings: all
   ignore:
     envs: development
-
 
 # Defaults
 defaults:
@@ -285,4 +275,4 @@ defaults:
       related: false
 # Optional. The default date format, used if none is specified in the tag.
 last-modified-at:
-    date-format: '%d-%b-%y'
+  date-format: "%d-%b-%y"
