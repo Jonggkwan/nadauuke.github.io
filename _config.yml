@@ -98,9 +98,9 @@ author:
   location: "South Korea"
   email: "skekdnzm1994@gmail.com"
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: mailto:skekdnzm1994@gmail.com
+    # - label: "Email"
+    #   icon: "fas fa-fw fa-envelope-square"
+    #   url: mailto:skekdnzm1994@gmail.com
 
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
